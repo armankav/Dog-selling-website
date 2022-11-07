@@ -1,0 +1,170 @@
+#title {
+  background-color: #d8adeb;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h2 {
+  font-family: "open-Sans-bold", sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.header {
+  font-family: "Roboto-black", sans-serif;
+  color: white;
+  size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  width: 400px;
+}
+
+.container-fluid {
+  padding: 3% 20% 6%;
+}
+
+.img1 {
+  height: 40px;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+.dogimg {
+  height: 500px;
+  transform: rotate(30deg);
+  position: absolute;
+  /* z-index:0; */
+}
+
+.navbar-nav {
+  padding-right: 50px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.downloadbtn {
+  margin: 5% 3% 5% 0;
+}
+
+#features
+{
+/* z-index:1; */
+background-color: white;
+position: relative;
+}
+.feature {
+  text-align: center;
+  width: 300px;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+  padding:70px auto 0;
+  text-align: center;
+  background-color: #d8adeb;
+  color: white;
+}
+
+.testimonial-img {
+  width: 12%;
+  border-radius: 100px;
+}
+
+#press {
+  background-color: #d8adeb;
+  text-align:center;
+}
+
+.press-logo
+{
+  width: 15%;
+padding: 30px 20px 100px;
+}
+
+.carousel-item
+{
+width:800px;
+margin-left: 350px;
+padding-top:50px;
+}
+
+.arrow
+{
+  padding: 50px 200px;
+}
+
+/* pricing */
+
+#pricing{
+  text-align: center;
+  padding: 50px 70px 50px;
+}
+
+.pricing-col
+{
+  padding: 0 50px;
+}
+
+/* cta section */
+#cta
+{
+  text-align: center;
+  background-color: #d8adeb;
+  padding: 50px 0 50px;
+}
+
+.dwndbtn
+{
+  display:inline-block;
+  padding: 20px 10px 10px;
+}
+
+
+/* footer section */
+
+#footer
+{
+text-align:center;
+padding: 50px 0 40px;
+}
+
+.footer-icons
+{
+  padding: 0 5px 10px;
+
+
+
+
+/* @media querr */
+
+@media(max-width:992px)
+{
+
+   #title
+   {
+    text-align:center;
+   }
+
+
+  .dogimg
+  {
+    position:static;
+    transform: rotate(0);
+
+  }
+}
